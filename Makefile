@@ -1,6 +1,21 @@
 CFLAGS=-Wall -g
 
-all: ex1 ex3 ex4 ex5 ex6 ex7 ex8 ex9 ex10 ex11 ex12 ex13 ex13-extra ex14
+all: \
+	ex1 \
+	ex3 \
+	ex4 \
+	ex5 \
+	ex6 \
+	ex7 \
+	ex8 \
+	ex9 \
+	ex10 \
+	ex11 \
+	ex12 \
+	ex13 \
+	ex13-extra \
+	ex14 \
+	ex14-extra
 
 clean:
 	rm -rf ex1 ex1.dSYM
@@ -17,4 +32,5 @@ clean:
 	rm -rf ex13 ex13.dSYM
 	rm -rf ex13-extra ex13-extra.dSYM
 	rm -rf ex14 ex14.dSYM
+	rm -rf ex14-extra ex14-extra.dSYM
 
