@@ -15,7 +15,8 @@ all: \
 	ex13 \
 	ex13-extra \
 	ex14 \
-	ex14-extra
+	ex14-extra \
+	ex15
 
 clean:
 	rm -rf ex1 ex1.dSYM
@@ -33,4 +34,4 @@ clean:
 	rm -rf ex13-extra ex13-extra.dSYM
 	rm -rf ex14 ex14.dSYM
 	rm -rf ex14-extra ex14-extra.dSYM
-
+	rm -rf ex15 ex15.dSYM
