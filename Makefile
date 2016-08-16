@@ -19,7 +19,11 @@ all: \
 	ex15 \
 	ex16 \
 	ex16-extra \
-	ex17
+	ex17 \
+	ex18 \
+	ex19
+
+ex19: object.o
 
 clean:
 	rm -rf ex1 ex1.dSYM
@@ -41,3 +45,5 @@ clean:
 	rm -rf ex16 ex16.dSYM
 	rm -rf ex16-extra ex16-extra.dSYM
 	rm -rf ex17 ex17.dSYM db.dat
+	rm -rf ex18 ex18.dSYM
+	rm -rf ex19 ex19.dSYM object.o

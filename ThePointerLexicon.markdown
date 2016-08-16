@@ -8,4 +8,7 @@ The Pointer Lexicon
 `type *ptr = &thing` - a pointer of type named ptr set to the address of thing
 `ptr++` - increment where ptr points
 
+Function Pointer
+----------------
 
+`int (*POINTER_NAME)(int a, int b);`
