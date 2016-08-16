@@ -21,9 +21,13 @@ all: \
 	ex16-extra \
 	ex17 \
 	ex18 \
-	ex19
+	ex19 \
+	ex20 \
+	ex22_main \
+	ex23
 
 ex19: object.o
+ex22_main: ex22.o
 
 clean:
 	rm -rf ex1 ex1.dSYM
@@ -47,3 +51,6 @@ clean:
 	rm -rf ex17 ex17.dSYM db.dat
 	rm -rf ex18 ex18.dSYM
 	rm -rf ex19 ex19.dSYM object.o
+	rm -rf ex20 ex20.dSYM
+	rm -rf ex22_main ex22_main.dSYM ex22.o
+	rm -rf ex23 ex23.dSYM
